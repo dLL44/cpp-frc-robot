@@ -29,4 +29,5 @@ namespace Constants {
     constexpr int DRIVE_FR = 4;
     
     constexpr int DRIVETRAIN_GEAR_RATIO = 9; // subject to change this year
+    constexpr double WHEEL_CIRCUMFRANCE = 12.57; // also subject to change this year
 }

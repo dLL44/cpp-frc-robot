@@ -9,5 +9,6 @@
 class DrivTrain : public frc2::SubsystemBase {
 public:
     // motor controllers
-    rev::CANSparkMax m_motorFL{}
+    rev::CANSparkMax m_motorFL{Constants::DRIVE_FL, rev::CANSparkMax::MotorType::kBrushless};
+    
 }
